@@ -18,16 +18,16 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     ```dart
     if (condition) statement;
     ```
-    
-    
-    
-    
+    <br/> 
+
     
 2. **Single line `if` with curly braces**: Recommended for single statements as it improves readability.
     
     ```dart
     if (condition) { statement; }
     ```
+    <br/> 
+
     
 3. **Multiline `if` with curly braces**: Recommended for multiple statements.
     
@@ -37,14 +37,14 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       statement2;
     }
     ```
-    
+    <br/> 
 4. **`if-else` without curly braces**: Not recommended, but possible when both `if` and `else` blocks have only one statement.
     
     ```dart
     if (condition) statement1;
     else statement2;
     ```
-    
+    <br/> 
 5. **`if-else` with curly braces**: Recommended, especially when there are multiple statements.
     
     ```dart
@@ -54,7 +54,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       statement2;
     }
     ```
-    
+    <br/> 
 6. **`if-else`+`if-else` combination without curly braces**: Not recommended, but possible for single statements.
     
     ```dart
@@ -62,7 +62,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     else if (condition2) statement2;
     else statement3;
     ```
-    
+    <br/> 
 7. **`if-else`+`if-else` combination with curly braces**: Recommended, especially when there are multiple statements.
     
     ```dart
@@ -74,14 +74,14 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       statement3;
     }
     ```
-    
+    <br/> 
 8. **Ternary operator**: This is an inline `if-else` expression that returns a value based on the condition.
     
     ```dart
     var result = condition ? valueIfTrue : valueIfFalse;
     
     ```
-    
+    <br/> 
 9. **Assignment inside `if` conditions**: Dart allows you to perform an assignment inside an `if` condition using the `=` operator.
     
     ```dart
@@ -90,14 +90,14 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       print('Got a number: $number');
     }
     ```
-    
+    <br/> 
 10. **`if` in Collection**: Dart allows `if` inside collection literals like lists, sets, and maps. This allows you to conditionally include elements.
     
     ```dart
     var includeZero = true;
     var numbers = [if (includeZero) 0, 1, 2, 3];
     ```
-    
+    <br/> 
 11. **`if` in Cascades**: Dart allows you to use `if` in a cascade to conditionally apply a cascade operation.
     
     ```dart
@@ -108,7 +108,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       ..write('!')
       ..if (includeNewLine) write('\\n');
     ```
-    
+    <br/> 
 12. **Null-aware Assignment with `if`**: You can check for `null` values and assign a default value using `if`.
     
     ```dart
@@ -124,7 +124,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     int number;
     number ??= 10;
     ```
-    
+    <br/> 
 13. **Nested `if` statements**: `if` statements can be nested inside other `if` statements.
     
     ```dart
@@ -134,7 +134,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 14. **`if` with `break` and `continue` in loops**: In a loop (like `for`, `while` or `do-while`), you can use `if` with `break` to exit the loop early, or `continue` to skip the rest of the current iteration.
     
     ```dart
@@ -144,7 +144,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       print(i);
     }
     ```
-    
+    <br/> 
 15. **`if` in `switch` statement**: You can use `if` inside the `case` of a `switch` statement to check further conditions.
     
     ```
@@ -158,7 +158,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     }
     
     ```
-    
+    <br/> 
 16. **`if` with exception handling**: You can use `if` in `try-catch` blocks to handle exceptions conditionally.
     
     ```dart
@@ -173,7 +173,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 17. **`if` with `assert`**: You can use `if` with `assert` to conditionally check invariants in your code during development.
     
     ```dart
@@ -181,7 +181,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       assert(someCondition, 'Some condition must be true here');
     }
     ```
-    
+    <br/> 
 18. **`if` with `await`**: You can use `if` with `await` in async functions to conditionally await Futures.
     
     ```dart
@@ -193,7 +193,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       // process data
     }
     ```
-    
+    <br/> 
 19. **Chained ternary operators**: You can chain ternary operators to create more complex conditional expressions:
     
     ```dart
@@ -201,7 +201,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
                   : condition2 ? value2
                   : defaultValue;
     ```
-    
+    <br/> 
 20. **Lambda functions with `if` statement**: You can use `if` statements inside lambda functions:
     
     ```dart
@@ -212,21 +212,21 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     });
     ```
-    
+    <br/> 
 21. **`if` in string interpolation**: You can use an `if` expression inside string interpolation to conditionally modify a string:
     
     ```dart
     var isMorning = true;
     var greeting = 'Good ${isMorning ? 'morning' : 'day'}';
     ```
-    
+    <br/> 
 22. **`if` in initializers**: You can use `if` in initializers, but it's not common and might be difficult to read:
     
     ```dart
     var value = otherValue;
     if (value == null) value = defaultValue;
     ```
-    
+    <br/> 
 23. **`if` in recursive functions**: You can use `if` to control the base case in recursive functions:
     
     ```
@@ -236,7 +236,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     }
     
     ```
-    
+    <br/> 
 24. **`if` in constructors**: You can use `if` in constructors to validate input:
     
     ```dart
@@ -251,7 +251,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     }
     
     ```
-    
+    <br/> 
 25. **`if` with getter and setter**: You can use `if` in a getter or setter to control how an object's properties are accessed or modified:
     
     ```dart
@@ -269,7 +269,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     }
     
     ```
-    
+    <br/> 
 26. **`if` in mixin**: You can use `if` in a mixin, which is a way of reusing a class's code in multiple class hierarchies:
     
     ```dart
@@ -282,7 +282,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 27. **`if` with extensions**: You can use `if` in an extension to add new functionality to an existing class:
     
     ```dart
@@ -297,7 +297,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     }
     
     ```
-    
+    <br/> 
 28. **`if` with late variables**: You can use `if` with late variables to check if they've been initialized:
     
     ```dart
@@ -306,7 +306,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       number = 10;
     }
     ```
-    
+    <br/> 
 29. **`if` in factory constructors**: You can use `if` in factory constructors to control the instantiation of a class:
     
     ```dart
@@ -322,7 +322,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 30. **`if` in callbacks**: You can use `if` in a callback function, which is a function passed as an argument to another function:
     
     ```dart
@@ -333,7 +333,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 31. **`if` with enums**: You can use `if` with enums to perform different actions based on the enum value:
     
     ```dart
@@ -351,7 +351,7 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
-    
+    <br/> 
 32. **`if` in command-line applications**: In a command-line application, you might use **`if`** to handle command-line arguments:
     
     ```dart
@@ -363,3 +363,4 @@ I believe that programming is similar to mathematics in its essence. So I've mad
       }
     }
     ```
+    <br/> 
