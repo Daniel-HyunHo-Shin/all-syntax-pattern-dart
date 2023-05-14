@@ -11,7 +11,7 @@ Mathematics is a bit different. The biggest difference is that the symbols and s
 
 I believe that programming is similar to mathematics in its essence. So I've made a list of possible syntax combinations that can be commonly seen in code. I'm hoping that by studying these patterns, I'll be able to improve my reading speed and fluency when it comes to source code.
 
----
+## if syntax
 
 1. **Single line `if` without curly braces**: This is not recommended, but possible when there's only one statement inside the `if` block.
     
