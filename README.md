@@ -19,6 +19,10 @@ I believe that programming is similar to mathematics in its essence. So I've mad
     if (condition) statement;
     ```
     
+    
+    
+    
+    
 2. **Single line `if` with curly braces**: Recommended for single statements as it improves readability.
     
     ```dart
