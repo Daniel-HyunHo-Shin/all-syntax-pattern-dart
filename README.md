@@ -1,0 +1,1 @@
+# all-syntax-pattern-dart
