@@ -1,7 +1,4 @@
 # All syntax patterns in Dart
-
-## Can I read code faster?
-
 I started learning programming two months ago, and I've been having a little trouble reading and understanding source code. It's not that I don't understand the concepts; it's just that I'm not used to the syntax patterns of the programming language.
 
 For example, conditional statements are easy to understand in theory. But when you're trying to read them in real code, it’s easy to get lost.
