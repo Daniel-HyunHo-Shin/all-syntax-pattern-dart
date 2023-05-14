@@ -1,7 +1,5 @@
 # All syntax patterns in Dart
 
-# all-syntax-pattern-dart
-
 ## Can I read code faster?
 
 I started learning programming two months ago, and I've been having a little trouble reading and understanding source code. It's not that I don't understand the concepts; it's just that I'm not used to the syntax patterns of the programming language.
